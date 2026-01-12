@@ -1,0 +1,8 @@
+@startuml
+class Student {
+  Name
+}
+Student "0..*"  -  "1..*" Course
+
+}
+@enduml
