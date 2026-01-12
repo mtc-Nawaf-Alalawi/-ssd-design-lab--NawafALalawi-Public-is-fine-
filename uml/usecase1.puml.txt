@@ -1,4 +1,5 @@
 @startuml
-:Student: --> (Register Course)
-
+actor Student
+Student --> (Register Course)
+Student --> (Check Prerequisite)
 @enduml
